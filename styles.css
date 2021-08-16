@@ -2,7 +2,7 @@
 
 
 :root{
-    --primary-color:green ;
+    --primary-color:#FCD34D;
     --dark-gray: #4B5563; 
     --off-white:white ;
 }
@@ -327,11 +327,11 @@ input{
 /* FOOTER */
 .footer{
     background-color: var(--primary-color);
-    padding: 1rem 1rem;
+    padding: 0.5rem 0.5rem;
     text-align: center;
     color: black;
     border-radius: 1rem ;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 .footer-header{
     font-size: 1.5rem;
