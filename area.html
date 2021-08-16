@@ -27,6 +27,47 @@
             
         </ul>
     </nav>
+    <section class="section edu">
+    <div class="container">
+        <h1 class="color-inverted"><center>Calculate the Area of a Triangle</center></h1>
+        <div class="input-container">
+            <label for="selection" id="heading">Choose the type of input:</label>
+            <select name="select-input" id="select-input">
+                <option value="two-sides">Base and Height</option>
+                <option value="three-sides">Three sides</option>
+                <option value="one-side">One side (Equilateral triangle)</option>
+            </select>
+            <button id="next">Next</button>
+        </div>
+        
+        <div class="two-sides-container">
+            <label for="base">Base:</label>
+            <input type="number" name="base" id="base">
+            <label for="height">Height:</label>
+            <input type="number" name="height" id="height">
+            <button id="calculate">CALCULATE</button>
+        </div>
+        <div class="three-sides-container">
+            <label for="side1">Side 1:</label>
+            <input type="number" name="side1" id="side1">
+            <label for="side2">Side 2:</label>
+            <input type="number" name="side2" id="side2">
+            <label for="side3">Side 3:</label>
+            <input type="number" name="side3" id="side3">
+            <button id="calculate-three">Calculate</button>
+        </div>
+        <div class="one-side-container">
+            <label for="side">Side:</label>
+            <input type="number" name="side" id="side">
+            <button id="calculate-one">Calculate</button>
+        </div>
+        <div class="result">
+            <p id="result"></p>
+        </div>
+        
+        </div>
+    </section>
+        <script src="area.js"></script>
     
 </body>
 </html>

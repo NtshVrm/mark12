@@ -2,7 +2,7 @@
 
 
 :root{
-    --primary-color: #1CD0D6;
+    --primary-color:green ;
     --dark-gray: #4B5563; 
     --off-white:white ;
 }
@@ -32,8 +32,68 @@ iframe {
 /*BUTTON*/
 button {
     background-color: var(--primary-color);
-    border-radius: 0.5rem;
-    color: white;
+    color:black;
+    margin: 0.5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    
+}
+.button-align{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    /* border: 3px solid green;  */
+}
+
+#next{
+    font-size:1rem;
+    font-weight: bolder;
+}
+
+#calculate{
+    width:250px;
+    font-size: large;
+    font-weight: bold;
+}
+
+#calculate-three{
+    width:250px;
+    font-size: large;
+    font-weight: bold;
+}
+
+#calculate-one{
+    width:250px;
+    font-size: large;
+    font-weight: bold;
+}
+
+/* SELECT */
+select{
+    padding:0.5rem;
+    font-size:1rem;
+}
+
+
+/* OUTPUT */
+#output{
+    font-size: x-large;
+    text-align: center;
+    color: #1CD0D6;
+    font-weight: bolder;
+}
+
+#submit-answer-btn{
+    font-size:large;
+}
+
+
+
+/* INPUT */
+
+input{
+    padding:0.5rem;
 }
 
 /* CONTAINER */
@@ -83,6 +143,14 @@ button {
     display: none;
 }
 
+.two-sides-container, .three-sides-container, .one-side-container {
+    display: none;
+    flex-direction: column;
+}
+
+.container > label {
+    font-size: 1.2rem;
+}
 /* LINKS */
 
 .link{
@@ -219,6 +287,41 @@ button {
 
 .edu{
     font-size: 1.25rem;
+}
+
+
+/* QUESTIONS */
+.questions{
+    color:var(--primary-color);
+    font-weight: bold;
+}
+
+/* AREA */
+
+#base{
+    padding: 0.5rem;
+    width:250px;
+}
+#height{
+    padding: 0.5rem;
+    width:250px;
+
+}
+#side{
+    padding: 0.5rem;
+    width:250px;
+}
+#side1{
+    padding: 0.5rem;
+    width:250px;
+}
+#side2{
+    padding: 0.5rem;
+    width:250px;
+}
+#side3{
+    padding: 0.5rem;
+    width:250px;
 }
 
 /* FOOTER */
