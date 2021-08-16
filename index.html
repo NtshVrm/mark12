@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun With Triangles</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- NAVIGATION -->
+    <nav class="navigation container">
+        <div class="nav-brand">FUN WITH TRIANGLES</div>
+        <ul class="list-not-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">IS IT A TRIANGLE?</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="quiz.html">QUIZ</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="area.html">AREA</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="hypotenuse.html">HYPOTENUSE</a>
+            </li>
+            
+        </ul>
+    </nav>
+
+    <section class="section edu">
+        <div class="container container-center">
+        <h1 class="color-inverted"> Is It A Triangle?</h1>
+        <label for="selection">Do you want to enter angles or sides?</label>
+            <select name="select" id="select">
+                <option value="angles">Enter Angles</option>
+                <option value="sides">Enter Sides</option>
+            </select>
+            <div class="button-align"><button id="next">Next</button></div>
+            <div class="angle-container">
+                <label for="angle-1">Enter First Angle:</label>
+                <input type="number" id="angle-one">
+                <label for="angle-2">Enter Second Angle:</label>
+                <input type="number" id="angle-two">
+                <label for="angle-3">Enter Third Angle:</label>
+                <input type="number" id="angle-three">
+                <button id="check-button1">Check</button>
+            </div>
+            <div class="sides-container">
+                <label for="side-1">Enter First Side:</label>
+                <input type="number" id="side-one">
+                <label for="side-2">Enter Second Side:</label>
+                <input type="number" id="side-two">
+                <label for="side-3">Enter Third Side:</label>
+                <input type="number" id="side-three">
+                <button id="check-button2">Check</button>
+            </div>
+              
+        <div class="result">
+            <p id="output"></p>
+        </div>
+
+    </div>
+            </section>
+
+    <script src="isTriangle.js"></script>
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+        <div class="footer-header">Find me on:</div>
+        <ul class="socials list-non-bullet ">
+            <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/kc-nitish-varma/" target="_blank" rel="noopener noreferrer"><img src="images/linkedin.svg" alt="Github" height="50" width="50"></a> </li>
+            <li class="list-item-inline"><a class="link" href="https://github.com/NtshVrm" target="_blank" rel="noopener noreferrer"><img src="images/github.svg" alt="Github" height="50" width="50"></a></li>
+            <li class="list-item-inline"><a class="link" href="https://twitter.com/ntsh_vrm" target="_blank" rel="noopener noreferrer"><img src="images/twitter.svg" alt="Github" height="50" width="50"></a></li>
+            <li class="list-item-inline"><a class="link" href="mailto: nitishvarma2k@gmail.com" target="_blank" rel="noopener noreferrer"><img src="images/mail.svg" alt="Github" height="50" width="50"></a></li>
+
+        </ul>
+    </footer>  
+</body>
+</html>
